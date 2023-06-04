@@ -233,9 +233,6 @@ header {
   margin-right: auto;
 }
 
-.menu-list {
-  list-style-type: none;
-}
 .menu-button {
   /* CLOUD */
   font-family: "Roboto", sans-serif;
@@ -246,6 +243,9 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 
   /* IRIS */
 
@@ -275,4 +275,19 @@ header {
   margin-left: auto;
   margin-right: auto;
   display: flex;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding-top: 96px;
+  padding-bottom: 72px;
+  margin: 0;
+}
+
+.project-section {
+  gap: 24px;
 }
