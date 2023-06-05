@@ -309,6 +309,8 @@ header {
 }
 .project-list {
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 .project-link {
   text-decoration: none;
@@ -334,19 +336,17 @@ header {
 
 .menu-list {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: center;
   align-items: center;
   gap: 24px;
   padding-top: 96px;
-  padding-bottom: 72px;
-  margin: 0;
+  margin-bottom: 72px;
+  margin-top: 0;
 }
 
 .project-section {
   gap: 24px;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .project-name {
