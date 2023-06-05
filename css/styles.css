@@ -223,8 +223,8 @@ header {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--title-color);
-  padding: 120px 0 72px 0;
-  margin: 0;
+  margin-bottom: 72px;
+  margin-top: 0;
 }
 .team-members-list {
   list-style-type: none;
