@@ -95,11 +95,6 @@ header {
   border-radius: 4px;
   cursor: pointer;
 }
-/* .button-position {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 .hero-button:hover,
 .hero-button:focus {
