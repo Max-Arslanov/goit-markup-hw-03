@@ -158,6 +158,11 @@ header {
   list-style-type: none;
   gap: 24px;
 }
+
+.benefits-item {
+  width: calc((100%-74) / 4);
+}
+
 .benefits-name {
   font-weight: 500;
   font-size: 20px;
