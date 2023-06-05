@@ -39,11 +39,15 @@ body {
 
 .hero {
   background-color: var(--title-color);
+  padding: 188px 0;
 }
 
 header {
   padding: 24px 0 24px 0;
   border-bottom: 1px solid #e7e9fc;
+}
+
+.header-styles {
 }
 
 .header-navigation {
@@ -59,9 +63,15 @@ header {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--white-background);
-  padding-top: 188px;
-  padding-bottom: 48px;
-  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 496px;
+}
+
+.hero-body {
+  display: block;
 }
 .hero-button {
   font-family: "Roboto", sans-serif;
@@ -71,16 +81,24 @@ header {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white-background);
-  padding: 16px 32px;
-  margin-bottom: 188px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 0;
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
+  margin-bottom: 0;
+  min-width: 169px;
+  height: 56px;
   border-radius: 4px;
+  cursor: pointer;
 }
-.button-position {
+/* .button-position {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .hero-button:hover,
 .hero-button:focus {
@@ -220,7 +238,7 @@ header {
 .footer-settings {
   background-color: #2e2f42;
   padding-top: 100px;
-  margin-top: 72px;
+  /* margin-top: 72px; */
 }
 .footer-logo {
   color: var(--light-backround);
@@ -277,6 +295,10 @@ header {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  /* display: flex; */
+}
+
+.header-container {
   display: flex;
 }
 
