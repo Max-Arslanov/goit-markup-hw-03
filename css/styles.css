@@ -5,6 +5,7 @@
   --active-links: #4d5ae5;
   --white-background: #ffffff;
   --light-backround: #f4f4fd;
+  --button-border: #e7e9fc;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -294,7 +295,7 @@ header {
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding: 12px 24px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--button-border);
   border-radius: 4px;
 
   /* IRIS */
@@ -306,7 +307,9 @@ header {
   background-color: var(--accent-color);
   cursor: pointer;
   color: var(--white-background);
+  border: 1px solid transparent;
 }
+
 .project-list {
   list-style-type: none;
   display: flex;
