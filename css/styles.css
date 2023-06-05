@@ -345,6 +345,8 @@ header {
 
 .project-section {
   gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .project-name {
@@ -391,5 +393,6 @@ img {
 }
 
 .section-positioning {
-  margin-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
