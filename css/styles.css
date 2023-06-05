@@ -311,6 +311,7 @@ header {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  gap: 24px;
 }
 .project-link {
   text-decoration: none;
@@ -340,13 +341,13 @@ header {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  padding-top: 96px;
+  padding: 0;
   margin-bottom: 72px;
   margin-top: 0;
 }
 
 .project-section {
-  gap: 24px;
+  /* gap: 24px; */
 }
 
 .project-name {
