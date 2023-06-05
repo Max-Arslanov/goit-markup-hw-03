@@ -326,6 +326,10 @@ header {
   color: var(--accent-color);
 }
 
+.project-dimensions {
+  width: calc((100% - 48px) / 3);
+}
+
 .container {
   width: 100%;
   max-width: 1158px;
