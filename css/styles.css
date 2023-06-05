@@ -314,7 +314,9 @@ header {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
+  margin-bottom: 0;
 }
 .project-link {
   text-decoration: none;
